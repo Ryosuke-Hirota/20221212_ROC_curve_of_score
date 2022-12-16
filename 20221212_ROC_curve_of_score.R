@@ -17,6 +17,7 @@ phy.list <-phy.list[,c(5,4,1)]
 # make list of score about relative rank
 # these lists are located at ""\\fsw-q02\okamura-lab\Files_related_to_M1_Projects\Hirota\CCLE_plot\20221209_calculate_score_about_relative_rank
 score.list <-list.files(path="C:/Rdata/20221209_calculate_score_about_relative_rank",pattern = "table_of_score")
+score.list <-score.list[c(1,10,2:9,11:19)]
 
 # set cutoff value
 cutoff <-seq(0,900,50)
